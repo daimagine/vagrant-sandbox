@@ -1,0 +1,14 @@
+---
+ip: "192.168.10.12"
+port: 2224
+memory: 3072
+cpus: 1
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: /Users/adikurniawan/Developer/project/styletheory/sandbox/apps
+      to: /home/vagrant/apps
