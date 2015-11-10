@@ -7,8 +7,8 @@ cpus: 1
 authorize: ~/.ssh/id_rsa.pub
 
 keys:
-    - ~/.ssh/id_rsa
+  - ~/.ssh/id_rsa
 
 folders:
-    - map: /Users/adikurniawan/Developer/project/styletheory/sandbox/apps
-      to: /home/vagrant/apps
+  - map: /Users/adikurniawan/Developer/project/styletheory/sandbox/apps
+    to: /home/vagrant/apps
